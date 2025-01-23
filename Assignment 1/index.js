@@ -45,22 +45,32 @@ console.log("Percentage", percentage)
 
 if (percentage >= 90) {
     console.log("Grade", "A+");
+    alert(" Congratulations " + studentname + " you are pass in exams ")
 }
 else if (percentage >= 80 && percentage < 90) {
     console.log("Grade", "A");
+    alert(" Congratulations " + studentname + " you are pass in exams ")
+
 }
 else if (percentage >= 70 && percentage < 80) {
     console.log("Grade", "B")
+    alert(" Congratulations " + studentname + " you are pass in exams ")
 }
 else if (percentage >= 60 && percentage < 70) {
     console.log("Grade", "C")
+    alert(" Congratulations " + studentname + " you are pass in exams ")
+
 }
 else if (percentage >= 50 && percentage < 60) {
     console.log("Grade", "D")
+    alert(" Congratulations " + studentname + " you are pass in exams ")
 }
 else if (percentage < 50) {
     console.log("F")
+    alert("Sorry You can't pass exams")
 }
 
-let finalresult = [studentname, totalmarks, percentage,]
-console.log(finalresult)
+
+
+let finalresult = [" your result: ", " Your Name " , studentname , " Marks Obtained " , totalmarks , " Percentage " ,  percentage,]
+alert(finalresult)
