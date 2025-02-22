@@ -6,13 +6,13 @@ console.log(studentname);
 let grandtotalmarks = 400
 console.log(grandtotalmarks)
 
+
 let subject1 = parseInt(prompt("Marks in English"))
 if (subject1 > 0 && subject1 < 101) {
     console.log("English", subject1)
-}
+} 
 else {
-    console.error("Marks are Between 0 to 100 for each subject");
-    
+    alert("Invalid")
 }
 
 let subject2 = parseInt(prompt("Marks in Maths"))
@@ -43,7 +43,7 @@ else {
 let totalmarks = subject1 + subject2 + subject3 + subject4;
 console.log("Total marks", totalmarks)
 
-let percentage = (totalmarks / 400) * 100;
+let percentage = (totalmarks  / 400)* 100;
 console.log("Percentage", percentage)
 
 // let grade;
@@ -103,3 +103,5 @@ if (percentage >= 90) {
 
 const finalresult = `Student Name: ${studentname}<br>Grand Total Marks: ${grandtotalmarks}<br>Total Marks: ${totalmarks}<br>Percentage: ${percentage}%<br>Grade: ${grade}`;
 document.getElementById("result").innerHTML = finalresult;
+ 
+
