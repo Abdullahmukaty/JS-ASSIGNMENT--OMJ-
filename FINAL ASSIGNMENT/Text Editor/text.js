@@ -5,6 +5,7 @@ console.log("btns-->", btn)
 let fontChange = document.getElementById('Font-Family')
 console.log("Font==>", fontChange)
 
+let OwnText = `<textarea>${text}<textarea>`
 
 fontChange.addEventListener('change', function () {
     console.log("Font==>", this.value)
