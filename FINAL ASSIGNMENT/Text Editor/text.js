@@ -1,6 +1,6 @@
 let text = document.getElementById('text')
 console.log("text-->", text)
-let btn = document.getElementsByClassName('action-btn')
+let btn = document.getElementsByClassNam('action-btn')
 console.log("btns-->", btn)
 let fontChange = document.getElementById('Font-Family')
 console.log("Font==>", fontChange)

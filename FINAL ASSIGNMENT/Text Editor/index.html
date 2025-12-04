@@ -5,6 +5,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Text Editor</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        .text textarea {
+            border: none;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            margin: 10px;
+            padding: 3%;
+        }
+
+        select {
+            background-color: black;
+            color: white;
+            margin: 2px;
+            padding: 4px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .Savebtn {
+            background-color: black;
+            color: white;
+            border-radius: 8px;
+            border: none;
+            padding: 5px;
+            margin: 2px;
+            width: 100px;
+            
+        }
+        button{
+            background-color: black;
+            color: white;
+            border-radius: 8px;
+            border: none;
+            padding: 5px;
+            margin: 2px;
+            width: 80px;
+        }
+        li{
+            border: 2px solid black;
+            font-weight: bold;
+        }
+
+
+    </style>
 </head>
 
 <body>
@@ -35,7 +83,14 @@
     </div>
 
     <div class="text">
-        <textarea rows="5" cols="20" id="text"></textarea>
+        <textarea rows="10" cols="50" id="text"></textarea>
+    </div>
+    <button class="Savebtn" onclick="submitUsertext()">Save</button>
+
+    <div>
+        <ol>
+            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo pariatur, aliquam ducimus dolore alias quo deleniti nostrum consequuntur adipisci cum sed aliquid eius iste reiciendis maiores culpa inventore recusandae dolores.</li>
+        </ol>
     </div>
     <script src="text.js"></script>
 </body>
